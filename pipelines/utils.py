@@ -10,7 +10,7 @@ from model.data_cleaning import (DataPreprocessStrategy,
 
 def get_data_for_test():
     try:
-        dataframe = pd.read_csv("/home/sayeed-hassan/Desktop/customer_satisfaction_project/data/olist_customers_dataset.csv")
+        dataframe = pd.read_csv('/home/sayeed-hassan/Desktop/customer_satisfaction/data/olist_customers_dataset.csv')
         df = dataframe.sample(n=100)
 
         preprocess_strategy = DataPreprocessStrategy()
