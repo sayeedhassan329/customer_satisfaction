@@ -10,10 +10,10 @@ from zenml import step
 from zenml.client import Client
 
 
-experiment_tracker = Client().active_stack.experiment_tracker.name
+#experiment_tracker = Client().active_stack.experiment_tracker.name
 
 
-@step(experiment_tracker = experiment_tracker)
+@step(experiment_tracker = 'mlflow_tracker')
 def train_model(
     x_train: pd.DataFrame,
     x_test: pd.DataFrame,
