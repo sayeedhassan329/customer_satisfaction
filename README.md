@@ -1,4 +1,4 @@
-# Predicting how a customer will feel about a product before they even ordered it
+# Predicting how a customer will feel about a product before they even ordering it
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zenml)](https://pypi.org/project/zenml/)
 
